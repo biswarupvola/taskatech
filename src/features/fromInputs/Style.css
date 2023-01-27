@@ -1,0 +1,80 @@
+.steperContainer{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 15px !important;
+    width: 46%;
+    background: #f5f5f5;
+    border-radius: 12px;
+    padding: 5px;
+}
+.steperBox{
+    background-color: #a8a9aa;
+    border-radius: 12px;
+    margin:2px;
+    color:#fff;
+    padding:10px 35px 10px 30px;
+    margin-right: 50px;
+    position:relative;
+    line-height: 22px;
+}
+
+.steperBox::after{
+    content: '';
+    position: absolute;
+    left:100%;
+    top:20px;
+    background-color: #a8a9aa;
+    width:52px;
+    padding: 0.5px;
+}
+.steperBox:last-child::after{
+    padding: 0;
+    width:0
+}
+.steperBox:last-child{
+    margin-right: 0px;
+}
+
+.steperBox.active{
+    background-color: #1976d2;
+}
+
+.steperBox.inactive{
+    background-color: #bdbdbd;
+    pointer-events: none;
+}
+.css-1wc848c-MuiFormHelperText-root{
+    margin-left: 0px !important;
+}
+.mrgn{
+    margin-bottom:2% !important
+}
+.errorResume .css-1sasres{
+    border-color: #f44336;
+}
+
+.errorResume .css-13dyovk-MuiButtonBase-root-MuiButton-root{
+    background-color: #f44336;
+}
+.errorResume .css-1q8v7ak-MuiSvgIcon-root{
+    color:#f44336
+}
+.errorLiveIn, .errMsgText{
+    color:#f44336 !important
+}
+.errMsgText{
+    font-size: 14px;
+    margin:0;
+    padding: 0;
+}
+.noSpacing{
+    margin: 0;
+    padding: 0;
+}
+.icon{
+    position:absolute;
+    right: 10px;
+    top: 14px;
+    font-size: 16px !important;
+}

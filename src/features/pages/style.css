@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap');
+
+.font{
+    font-family: 'Inter', sans-serif;
+}
+.header{
+    color: #1a73e8;
+    font-weight: 400;
+}
+.span{
+    color: #f44336;
+}
